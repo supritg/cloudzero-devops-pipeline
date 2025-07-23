@@ -1,0 +1,12 @@
+# Ignore Jenkins, Localstack, Terraform, Docker artifacts
+jenkins_home/
+localstack/
+*.tfstate
+*.tfstate.backup
+.terraform/
+.env
+.env.*
+Dockerfile
+*.log
+dist/
+build/ 
