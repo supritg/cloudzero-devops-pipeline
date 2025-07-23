@@ -1,12 +1,23 @@
-# Ignore Jenkins, Localstack, Terraform, Docker artifacts
+# Jenkins & Localstack runtime
 jenkins_home/
 localstack/
+
+# Terraform state & cache
 *.tfstate
 *.tfstate.backup
 .terraform/
+
+# Node & React
+node_modules/
+build/
+dist/
+
+# Environment files & secrets
 .env
 .env.*
-Dockerfile
+
+# Logs
 *.log
-dist/
-build/ 
+
+# System files
+.DS_Store 
